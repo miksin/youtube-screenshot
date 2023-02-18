@@ -1,0 +1,1 @@
+javascript:!function(){var e=document.body.getElementsByTagName("video")[0],t=document.createElement("canvas"),i=document.createElement("a");i.download=`screenshot_${new Date().getTime()}`,t.width=e.videoWidth,t.height=e.videoHeight,t.getContext("2d").drawImage(e,0,0,t.width,t.height),t.toBlob(function(e){i.href=URL.createObjectURL(e),i.click()},"image/png")}();
