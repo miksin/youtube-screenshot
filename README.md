@@ -1,3 +1,3 @@
 # Youtube Screenshot
 
-Paste it to your chrome bookmark.
+Paste contents in `for_bookmark.js` to your chrome bookmark.
